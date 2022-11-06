@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.bgcolor {
+    background-color: #FF731D;
+}
+
+.header {
+    /* margin: 30px; */
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    justify-content: space-around;
+    /* justify-content: baseline; */
+
+}
+
+.console {
+    color: #FF731D;
+}
+
+li a:hover {
+    color: #FF731D;
+}
+
+.home {
+    color: #FF731D;
+}
+
+.name {
+    font-family: 'Trispace', sans-serif;
+    color: #FFF7E9;
+}
+
+.name a {
+    color: #FFF7E9;
+    text-decoration: none;
+}
+
+nav {
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Noto Serif TC', serif;
+    padding: 0 10px;
+    margin-top: 4px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: #FFF7E9;
+    font-size: large;
+    padding: 0 2.5rem;
+    justify-content: space-around;
+}
+
+li a {
+    color: #FFF7E9;
+    text-decoration: none;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+    /* width: 600px;
+    height: 600; */
+    /* z-index: -1; */
+}
+
+/* .description {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+} */
+
+.desciption-landing {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    position: absolute;
+    width: 35rem;
+    left: 10rem;
+    top: 19rem;
+}
+
+.description-heading {
+    font-size: 40px;
+    color: #5F9DF7;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.desciption-para {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #fff
+}
+
+.button-log-sin {
+    top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+    padding-top: 3rem;
+}
+
+.btn-1 {
+    font-size: 1.1rem;
+    padding: 1rem;
+    width: 14rem;
+    background-color: #5F9DF7;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-1:hover {
+    background-color: #1746A2;
+}
+
+.btn-1 a {
+    color: #FFF7E9;
+    text-decoration: none;
+    background-color: #5F9DF7;
+}
+
+h4 {
+    background-color: inherit;
+}
+
+.app-connect {
+    color: #ffffff
+}
+
+#space-generator {
+    /* margin: 1rem; */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.4rem;
+}
+
+switch-init {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: black;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* .position-switch {
+    display: flex;
+    /* align-items: stretch; */
+
+.footer-control {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: black;
+    top: 20rem;
+}
+
+small {
+    font-size: 0.5em;
+    display: block;
+}
+
+.sign-in {
+    background-color: #5F9DF7;
+}
+
+.sign-in:hover {
+    background-color: #1746A2;
+}
+
+footer {
+    cursor: pointer;
+
+    margin-top: 30px;
+    margin-bottom: auto;
+    font-size: 2em;
+    text-align: center;
+
+}
+
+.darkmode {
+    color: #dcdcdc;
+    background-color: black;
+}
+
+.icon-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.pointer-set {
+    cursor: pointer;
+}
+
+.app-connect a {
+    color: white;
+}
+
+.app-connect a:after {
+    color: white;
+}

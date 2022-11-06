@@ -1,0 +1,186 @@
+body {
+    background: white;
+    background:url(./PortFolio/Back\ Image.jpg);
+    font-family: monospace;
+  }
+  
+  #mainhead {
+    position: absolute;
+    padding-top: 35px;
+    margin-left: -179px;
+    color: #FF731D;
+    font-weight: bold;
+    font-size: 40px;
+    left: 51%;
+  }
+  
+  #window {
+    background: #FFF7E9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #FF731D;
+    border-radius: 10px;
+    height: 55%;
+    width: 31%;
+    position: absolute;
+    left: 35%;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    top: 150px;
+  }
+
+  #fname {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    top: 5px;
+  }
+  #fnamebox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 40px;
+  }
+  #fn {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white ;
+    border-radius: 10px;
+    width: 310px;
+    height: 25px;
+  }
+
+  #lastname {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    top: 60px;
+  }
+  #lnamebox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 95px;
+  }
+  #ln {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white ;
+    border-radius: 10px;
+    width: 310px;
+    height: 25px;
+  }
+  
+  #email {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    top: 115px;
+  }
+  #emailbox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 150px;
+  }
+  #em {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 310px;
+    height: 25px;
+  }
+  
+  #password {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    top: 170px;
+  }
+  #passbox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 205px;
+  }
+  #pass {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white ;
+    border-radius: 10px;
+    width: 310px;
+    height: 25px;
+  }
+  
+  #or {
+    font-size: 15px;
+    position: absolute;
+    top: 275px;
+    left: 30px;
+  }
+  
+  #gg {
+    position: absolute;
+    background: white;
+    left: 55px;
+    top: 325px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #gg:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2);
+  }
+  
+  #gh {
+    position: absolute;
+    background: white;
+    left: 180px;
+    top: 325px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #gh:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2);
+  }
+  
+  #fb {
+    position: absolute;
+    background: white;
+    left: 305px;
+    top: 325px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #fb:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2);
+  }
+  
+  button {
+    font-size: 18px;
+    color: white;
+    background-color: #FF731D; 
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    left: 100px;
+    top: 247px;
+  }
+  
+  button:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.1);
+  }

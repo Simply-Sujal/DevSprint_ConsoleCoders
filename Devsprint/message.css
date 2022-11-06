@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main-container {
+    background-color: #FFF7E9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 0;
+    background-color: black;
+}
+
+.console-coder {
+    color: #FF731D;
+}
+
+.header {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: black;
+    margin: 1.5rem;
+    margin-bottom: 30px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.name {
+    font-family: 'Trispace', sans-serif;
+    color: #FFF7E9;
+}
+
+.name a {
+    color: #FFF7E9;
+    text-decoration: none;
+}
+
+nav {
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Noto Serif TC', serif;
+    padding: 0 10px;
+    margin-top: 4px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: #FFF7E9;
+    font-size: large;
+    padding: 0 2.5rem;
+    justify-content: space-around;
+}
+
+li a {
+    color: #FFF7E9;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.message {
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    gap: 1.2rem;
+    font-size: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+    grid-template-columns: repeat(3, 1fr);
+    width: 56rem;
+    border-radius: 50px;
+    display: grid;
+}
+
+.message-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.people-visible {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.padded {
+    padding: 2rem;
+}
+
+.message-read {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 2rem;
+    border: 3px solid white;
+
+}
+
+.display-pic {
+    color: wheat;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.name-display {
+    color: wheat;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.chats-heading {
+    padding: 2rem;
+    color: #FF731D;
+}
+
+.messages-sent {
+    display: flex;
+    float: right;
+    width: 50rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.messages-recieved {
+    display: flex;
+    float: right;
+    width: 50rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 2rem;
+}
+
+.padding-messages {
+    padding: 1rem;
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-messages a {
+    color: white;
+}
+
+.padding-messages a ::after {
+    color: white;
+}
+
+.border-added {
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+.text-area {
+    border: 3px solid white;
+    width: 48rem;
+    height: 4rem;
+    border-radius: 24px;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 0.5rem;
+    resize: none;
+}
+
+
+.icons-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.text {
+    width: 35rem;
+    border-radius: 14px;
+    color: white;
+    line-height: 1rem;
+    height: 24px;
+    padding: 12px;
+    font-size: 23px;
+    resize: none;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}

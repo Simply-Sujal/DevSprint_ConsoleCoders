@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 30px; ;
+}
+
+body{
+    background: url(./PortFolio/Back\ Image.jpg);
+    font-family: Verdana;
+    text-align: center;
+}
+ 
+form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+ 
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+ 
+        /* Styling form-control Label */
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+        }
+ 
+        /* Styling form-control input,
+        select, textarea */
+        .form-control input,
+        .form-control select,
+        .form-control textarea {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+ 
+        /* Styling form-control Radio
+        button and Checkbox */
+        .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+        }
+ 
+        /* Styling Button */
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #FF731D;
+    border: 1px solid #777;
+    outline: none;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 21px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #ff6200;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+}

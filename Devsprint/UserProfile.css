@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+
+.user-Profile-section {
+
+  height: 100vh;
+  width: 100%;
+}
+
+.nav-section {
+  background-color: #000000;
+  /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.main-name {
+  color: #FF731D;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 26px 140px;
+}
+
+.name {
+  font-family: 'Trispace', sans-serif;
+  color: #FFF7E9;
+}
+
+.name a {
+  color: #FFF7E9;
+  text-decoration: none;
+}
+
+.console {
+  color: #FF731D;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  padding: 0 2.5rem;
+  color: #fff;
+}
+
+li a {
+  color: #FFF7E9;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* ----------------- user profile section -----------------  */
+.main-profile {
+  color: white;
+}
+
+.profile-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.circular-image {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-image: initial;
+}
+
+.main-image {
+  margin: auto;
+  padding-left: 425px;
+  padding-top: 150px;
+}
+
+.main-text {
+  width: 60%;
+  margin: auto;
+  padding-left: 40px;
+  padding-right: 150px;
+  padding-top: 180px
+}
+
+.main-heading {
+  color: rgb(238, 238, 238);
+  font-weight: 400;
+  font-size: 19px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.abhi-name {
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  line-height: 42px;
+  font-weight: 500;
+  white-space: nowrap;
+  position: relative;
+  margin: 19px 0px 10px;
+}
+
+.descrip {
+  color: rgb(238, 238, 238);
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin: 11px 0px 23px;
+}
+
+/* ----------- button -------------  */
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  margin-left: 10px;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FF731D;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.05);
+}
+
+.button-73:active {
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+/* ---------- Interest Section ------------  */
+
+#about-me {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+  max-width: 85%;
+  margin: auto;
+  /* margin-top: 200px; */
+}
+
+.my-image {
+  width: 25%;
+  height: auto;
+  margin: 0px 0 10px 80px;
+  border-radius: 25px;
+}
+
+.paragraph {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  margin-right: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.2rem;
+}
+
+.second-para {
+  margin-top: 30px;
+}
+
+.main-para {
+  margin-bottom: 20px;
+}
+
+.interest {
+  color: white;
+  margin-top: 250px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1.5px;
+  color: #5F9DF7;
+}
+
+
+/* CSS */
+.button-35 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 5px;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-35:hover {
+  box-shadow: #FF6314 0 0 0 3px, transparent 0 0 0 0;
+}
+
+/* ------ click me -------  */
+.button-36 {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-family: Inter, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  margin: 5px;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.a-click {
+  color: black;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.button-36:hover {
+  box-shadow: #FF6314 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+/* ----------- Find people like you ---------------  */
+.main-people {
+  width: 50%;
+  text-align: center;
+  margin-left: 548px;
+  margin-bottom: 200px;
+  display: flex;
+  margin-bottom: 250px;
+}
+
+.people-heading {
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  color: #5F9DF7;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+
+/* ---------- footer ------------  */
+.Console {
+  background-color: rgb(28, 26, 26);
+}
+
+.main-namee {
+  background-color: rgb(28, 26, 26);
+  color: #FF6314;
+}
+
+.footer {
+  background: rgb(28, 26, 26);
+  padding: 0.8rem 0;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 15px;
+  padding: 0.6% 0%;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  background-color: rgb(28, 26, 26);
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+  background-color: rgb(28, 26, 26);
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  width: 100%;
+  background-color: rgb(28, 26, 26);
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 5px;
+  background-color: rgb(28, 26, 26);
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0% 1%;
+}
