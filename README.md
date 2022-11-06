@@ -1,7 +1,5 @@
 # DevSprint_ConsoleCoders
-DevSprint_ConsoleCoders
-
-#Team Member
+DevSprint_ConsoleCoders : Team Members
 #Sujal (https://github.com/Simply-Sujal)
 
 #Abhinav (https://github.com/Kanekiken0965)
