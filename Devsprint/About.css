@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.bgcolor {
+    background-color: #FF731D;
+}
+
+.header {
+    /* margin: 30px; */
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    justify-content: space-around;
+    /* justify-content: baseline; */
+
+}
+
+.console{
+    color: #FF731D;
+}
+
+li a:hover{
+    color: #FF731D;
+}
+
+.home{
+    color: #FF731D;
+}
+
+.name {
+    font-family: 'Trispace', sans-serif;
+    color: #FFF7E9;
+}
+
+.name a {
+    color: #FFF7E9;
+    text-decoration: none;
+}
+.main-name{
+    color: #FF731D;
+}
+
+nav {
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Noto Serif TC', serif;
+    padding: 0 10px;
+    margin-top: 4px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    color: #FFF7E9;
+    font-size: large;
+    padding: 0 2.5rem;
+    justify-content: space-around;
+}
+
+li a {
+    color: #FFF7E9;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* --------- Main Section --------- */
+.main-section{
+    background-color: #000000;
+}
+
+.abt-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color:#fff;
+}
+
+.abt-div1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 90px;
+}
+
+.my-image{
+    width: 300px;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px;  
+    margin-right: 20px;
+}
+
+.abt-head-para{
+    padding-right: 55px;
+    margin-top: 150px;
+    width: 600px
+}
+
+.abt-us{
+    font-size: xxx-large;
+    margin-bottom: 20px;
+}
+
+.abt-para{
+    font-size: 1.345rem;
+    line-height: 1.4;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ---------- small section -----------  */
+.small-sec{
+    background-color: #FF731D;
+    text-align: center;
+}
+
+.small-topic{
+    margin-top: 60px;
+    padding-top: 30px;
+    font-size: larger;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.logo-sec{
+    width: auto;
+    height: 150px
+}
+
+.img1{
+    width: auto;
+    height: 100px;
+    padding:30px 60px 0 60px;
+}
+
+
+/* ----------- Mission Section --------- */
+.main-mission{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    color:#fff;
+}
+
+.main-mission-1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 90px;
+}
+
+.mission-img{
+    height: 600px;
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.main-mission-writeup{
+    padding-top: 250px;
+    padding-left: 70px;
+}
+
+.main-mission-heading{
+    font-size: 40px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #FF731D;
+    padding-bottom: 20px;
+}
+
+.main-mission-para{
+    line-height: 23px;
+    font-size: large;
+}
+
+
+/* ------------- Contributors -----------------  */
+.contri-1{
+    width: 100%;
+}
+
+.contri-topic{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FF731D;
+}
+
+.contri-img{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+
+.img-contri-1{
+    height: 400px;
+    /* width: auto; */
+    margin-left: 410px;
+}
+
+.img-contri-2{
+    height: 400px;
+    margin-left: 60px;
+}
+
+.contri-details{
+    color: #fff;
+    padding-bottom: 50px;
+}
+  
+.main-contri{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contri-details-1{
+    padding-left: 410px;
+    text-align: center;
+}
+
+.contri-details-2{
+    padding-right: 420px;
+    text-align: center;
+}
+
+.contri-name{
+    padding: 10px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contri-tag{
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+
+/* -----------Footer----------- */
+    
+    .footer{
+    background:rgb(28, 26, 26);
+    padding:10px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+
+
+

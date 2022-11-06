@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: url(./PortFolio/Back\ Image.jpg);
+}
+
+body {
+    background: white;
+    font-family: monospace;
+  }
+  
+  #mainhead {
+    position: absolute;
+    padding-top: 80px;
+    color: #FF731D;
+    font-weight: bold;
+    font-size: 40px;
+    left: 38%;
+  }
+  
+  #window {
+    background: rgb(255, 247, 233);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 115, 29);
+    border-radius: 10px;
+    height: 45%;
+    width: 31%;
+    position: absolute;
+    left: 35%;
+    top: 150px;
+  }
+  
+  #consolecoders {
+    position: absolute;
+    left: 8%;
+    font-size: 30px;
+    font-weight: bold;
+    top: 30%;
+  }
+  #coders {
+    background: none;
+    color: #FF731D;
+  }
+  
+  #username {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    margin-top: 15px;
+  }
+  
+  #userbox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 40px;
+  }
+  
+  #user {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 310px;
+    height: 40px;
+  }
+  
+  #password {
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    left: 50px;
+    top: 94px;
+  }
+  
+  #passbox {
+    position: absolute;
+    font-size: 15px;
+    left: 30px;
+    top: 120px;
+  }
+  
+  #pass {
+    font-size: 15px;
+    padding-left: 20px;
+    background: white ;
+    border-radius: 10px;
+    width: 310px;
+    height: 40px;
+  }
+  
+  #or {
+    font-size: 15px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+  }
+  
+  #gg {
+    position: absolute;
+    background: white;
+    left: 55px;
+    top: 270px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #gg:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2);
+  }
+
+  #tra{
+    margin-top: 30px;
+    margin-left: 5px;
+    /* margin-bottom: 20px ; */
+    /* background-color:rgb(255, 247, 233); */
+  }
+  
+  #gh {
+    position: absolute;
+    background: white;
+    left: 180px;
+    top: 270px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #gh:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2  );
+  }
+  
+  #fb {
+    position: absolute;
+    background: white;
+    left: 305px;
+    top: 270px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  #fb:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.2);
+  }
+  
+  button {
+    font-size: 18px;
+    color: white;
+    background-color: #FF731D;
+    border-radius: 10px;
+    width: 99px;
+    height: 27px;
+    font-weight: bold;
+    color: #FF731D;
+    position: absolute;
+    left: 35px;
+    top: 185px;
+  }
+  
+  button:hover {
+      transition-duration: 0.1s;
+      transform: scale(1.1);
+  }
